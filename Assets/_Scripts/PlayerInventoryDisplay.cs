@@ -22,12 +22,12 @@ public class PlayerInventoryDisplay : MonoBehaviour
 		 * 
 
 		inventory.Sort(
-			delegate(PickUp p1, PickUp p2){
-			return p1.description.CompareTo(p2.description);
-		}
+	    		delegate(PickUp p1, PickUp p2){
+		    	return p1.description.CompareTo(p2.description);
+    		}
 		);
-		
-		*/
+        */
+
 
 		// (1) clear existing display
 		inventoryText.text = "";

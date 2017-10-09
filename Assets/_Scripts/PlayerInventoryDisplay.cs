@@ -17,18 +17,6 @@ public class PlayerInventoryDisplay : MonoBehaviour
 	// method to update display of provided List 'inventory'
 	public void OnChangeInventory(List<PickUp> inventory)
 	{
-		/* 
-		 * alphabetical sorting of List
-		 * 
-
-		inventory.Sort(
-	    		delegate(PickUp p1, PickUp p2){
-		    	return p1.description.CompareTo(p2.description);
-    		}
-		);
-        */
-
-
 		// (1) clear existing display
 		inventoryText.text = "";
 		
